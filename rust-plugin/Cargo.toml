@@ -9,4 +9,10 @@ name = "rust_plugin"
 crate-type = ["cdylib"]
 
 [dependencies]
-pyo3 = "0.22.0"
+anyhow = "1.0.93"
+itertools = "0.13.0"
+ndarray = "0.16.1"
+num = "0.4.3"
+numpy = "0.22.1"
+pyo3 = {version  = "0.22.0", features = ["num-complex"]}
+rand = "0.8.5"
