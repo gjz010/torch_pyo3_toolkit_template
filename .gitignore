@@ -1,0 +1,4 @@
+.devenv
+.direnv
+**/*.pth
+**/__pycache__
